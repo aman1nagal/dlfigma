@@ -4,11 +4,11 @@
 /node_modules
 /.pnp
 .pnp.js
-# /Stopwatch.js
-# /StopwatchShow.js
-# /Stopwatch.js
-# /Frame37.js
-# /framecompo.css
+/Stopwatch.js
+/StopwatchShow.js
+/Stopwatch.js
+/Frame37.js
+/framecompo.css
 
 # testing
 /coverage
