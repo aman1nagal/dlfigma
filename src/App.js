@@ -1,12 +1,12 @@
+import "./App.css";
 
-import './App.css';
-import Stopwatch from './Stopwatch';
+import Fractify from "./Fractify";
 
 function App() {
   return (
     <div className="App">
-      <p>StopWatch Made By Aman Nagal</p>
-      <Stopwatch />
+      <Fractify />
+      {/* <Frame37 /> */}
     </div>
   );
 }

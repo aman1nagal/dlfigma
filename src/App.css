@@ -36,50 +36,126 @@
     transform: rotate(360deg);
   }
 }
-.html{
+.html {
   height: 100%;
 }
-body{
+body {
   min-height: 100%;
   z-index: 1;
 }
-.stopwatch{
+.stopwatch {
   text-align: center;
- font-size: 40px;
+  font-size: 40px;
 }
-.displayhistory{
+.displayhistory {
   margin-top: 30px;
   font-size: 30px;
 }
-.showwatchshow{
+.showwatchshow {
   font-size: 30px;
-  font-family: 'Roboto Mono',monospace;
+  font-family: "Roboto Mono", monospace;
 }
 
-.ul{
+.ul {
   margin-top: 15px;
   list-style-type: none;
   padding: 0px;
 }
-.li{
+.li {
   padding: 5px;
   border-bottom: 1px solid;
 }
-li:hover{
+li:hover {
   background-color: #61dafb;
 }
-li:last-child{
+li:last-child {
   display: none;
 }
-.resetButtonCss{
+.resetButtonCss {
   background-color: #61dafb;
 }
-.savebutton{
+.savebutton {
   background-color: rgb(197, 197, 237);
 }
-.stop_Button{
+.stop_Button {
   background-color: #61dafb;
 }
-.start_button{
-  background-color:  rgb(197, 197, 237);;
+.start_button {
+  background-color: rgb(197, 197, 237);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 10px;
+}
+.early {
+  background-color: #2c5f52;
+  margin-top: 2px;
+  color: white;
+  font-weight: bold;
+  width: 7rem;
+  height: 2.2rem;
+  border-radius: 30px;
+}
+.nav-heading {
+  width: 25rem;
+  margin-top: 11px;
+  /* background-color: red; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.mid-sec-img{
+  margin-top: 1rem;
+  width: 80%;
+  height: 14rem;
+}
+.mid-sec-img-btm{
+  margin-top: 1rem;
+  width: 25rem;
+  height: 3rem;
+}
+.frac{
+  width: 6rem;
+}
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-poppins: Poppins;
+  --title: "DM Serif Display";
+
+  /* font sizes */
+  --font-size-5xs: 8px;
+  --font-size-mini: 15px;
+  --font-size-17xl: 36px;
+  --font-size-lg: 18px;
+  --font-size-15xl-8: 34.8px;
+  --font-size-50xl-7: 69.7px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-black: #000;
+  --base-color: #2c5f52;
+
+  /* Gaps */
+  --gap-161xl: 180px;
+
+  /* Paddings */
+  --padding-3xs: 10px;
+  --padding-8xs: 5px;
+  --padding-5xs-3: 7.3px;
+  --padding-5xs: 8px;
+  --padding-base-9: 16.9px;
+  --padding-4xs-2: 8.2px;
+  --padding-6xs-6: 6.6px;
+
+  /* border radiuses */
+  --br-25xl: 44px;
 }
